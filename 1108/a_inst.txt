@@ -1,0 +1,23 @@
+
+
+
+구글에 virtualbox 검색 > Oracle VM VirtualBox
+Download VirtualBox > windows hosts 
+설치시 따로 만질거 없음. 
+
+새로만들기
+ISO이미지 - 설치파일같은 것
+
+Ubuntu downloads > Server > Ubuntu Server 20.04 LTS(Alternative downloads)
+
+iso 넣고 > 폴더명 > 이름,비번 > 그대로 > 그대로 > 완료
+
+안될때 관리자권한실행 > ws| --update
+프로그램 및 기능 > 윈도우 기능 켜기 끄기 > hyper-v 끄고, linux형 윈도우 켜기
+
+
+언어선택 > update to the new > done > done > .... > done > reboot
+
+아이디 > 비번 입력
+
+

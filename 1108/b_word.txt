@@ -1,0 +1,38 @@
+ipconfig - ip 주소 찾기
+
+dir - 현재위치에 있는 파일 확인가능
+cd 가고자하는폴더명 - 이동 가능
+mkdir 만들고자하는폴더명 - 폴더생성
+echo testaaaa > aaa.txt = echo 폴더생성 | testaaa 문자열 | aaa.txt 파일명
+
+
+clear - 화면정리
+ls - 현재위치에 있는 폴더보기
+mkdir 파일명 - 폴더생성 (인자값이 필수 / 인자값은 명령어에 따라 필수 일 수도 있다.)
+ls / - 
+ls -l / - 명령어구조
+
+*명령어 기본구조
+명령어 [옵션] [인자]
+
+
+cat aaa.txt - 내부에 문자열 출력
+date - 현재날짜
+man 명령어 - 명령어에 대한 사용법 출력
+q - man 나가짐
+ctrl + w - 단어단위로 지워짐
+ctrl + u - 전체 단어 지움
+passwd - 비밀번호 변경하기
+echo - 인자를 화면에 출력
+ls | grep aaa.txt - 원하는 것만 출력하는 명령어
+
+cat /proc/cpuinfo - cpu확인
+
+cd : 경로 이동
+cd .. : 상위 경로로 이동
+cd ~ : 홈디렉터리로 이동 
+cd / : 가장 상위 경로로이동
+
+pwd : 현재 절대경로 출력
+cd /경로/.../경로 : 절대경로 이동
+

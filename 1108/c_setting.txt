@@ -1,0 +1,24 @@
+각 프로그램은 필터를 만들어야함
+폴더도 파일로 인식한다. 왠만한 명령어가 폴더에도 인식된다
+
+No such file or directory
+절대경로 / 상대경로
+스크립트(script) : 대본
+  파일에 어떤일을 할지 정의하는 것
+
+/usr/a에 스크립트 파일이 존재
+: /usr/b 폴더에 bbb.txt파일을 생성 원할때 
+echo bbb > bbb.txt 입력시 /usr/a 폴더에 bbb.txt 파일이 생성됨
+echo bbb > /usr/bbb.txt < 절대경로지정
+
+
+../b/bbb.txt 상대경로
+1. a폴더의 상위 폴더로 이동
+2. b폴더로 이동해서
+3. bbb.txt 파일을 생성
+
+
+/user/a 
+/user/b 
+스크립트 내용 echo bbb > bbb.txt
+폴더명이 변할 시 오류 생김
